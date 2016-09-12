@@ -9,11 +9,12 @@ class MainTestCase(TestCase):
         #self.assertTrue(run_client(['join', 'player']))
         #self.assertTrue(run_client(['join', 'obama']))
         #self.assertTrue(run_client(['join', 'putin']))
-        #self.assertEqual(run_client('game'), 'incorrect data')
-        #self.assertEqual(run_client(['jo', 'klava']), 'incorrect data')
+        #self.assertTrue(run_client('game'), 'incorrect data')
+        #self.assertTrue(run_client(['jo', 'klava']), 'incorrect data')
         #self.assertTrue(run_client(['join', 'marusia']))
         #  match complete, wait several seconds for next match
         #self.assertTrue(run_client(['join', 'zerg']), 'wait several seconds')
+        pass
 
     def test_b(self):
         data_true = [[1, 1, 'coca-cola', '127.0.0.1']]
